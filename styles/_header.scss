@@ -1,7 +1,6 @@
 header {
+  @include flexCenter;
   background: lightblue;
-  display: flex;
-  justify-content: center;
   button {
     background: $primaryBtn;
     color: $lightText;
